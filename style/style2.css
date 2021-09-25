@@ -24,17 +24,25 @@ body {
   margin-top: 0;
   padding: 1rem;
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 #heading-main {
   text-align: center;
 }
 
-.quiz-container {
-  min-width: 50%;
-  max-width: 60%;
+#container {
+  width: 80%;
   margin: auto;
-  border: 1px solid black;
+}
+
+.quiz-container {
+  width: 100%;
+  margin: auto;
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
 }
 
 .question {
@@ -48,12 +56,15 @@ body {
 
 #btn-submit {
   display: block;
+  padding: 0.2rem;
+  text-align: center;
   font-size: 1.5rem;
   margin: 2rem auto;
   background-color: var(--secondary-color);
   color: white;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
 }
 
 #output {
