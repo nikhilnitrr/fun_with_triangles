@@ -6,15 +6,14 @@ const correctAnswers = ["90°", "right angled"];
 
 function calculateScore() {
   var score = 0;
-  //   var index = 0;
 
   const data = new FormData(formRef);
+  var arr = Object.values(data);
 
-  if (data["answer1"] === correctAnswers[0]) {
-    score += 1;
-  }
-  if (data["answer2"] === correctAnswers[1]) {
-    score += 1;
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] == correctAnswers[i]) {
+      score++;
+    }
   }
 
   output.innerText = "Your score is " + score;
