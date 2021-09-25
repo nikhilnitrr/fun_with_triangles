@@ -43,8 +43,8 @@ body {
 input[type="number"] {
   width: 100%;
   margin-bottom: 2rem;
-  max-height: 8vh;
-  min-height: 6vh;
+  max-height: 6vh;
+  min-height: 4vh;
 }
 
 #btn-submit {
