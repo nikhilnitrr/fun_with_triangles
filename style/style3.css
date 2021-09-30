@@ -36,12 +36,19 @@ body {
 }
 
 #formulae,
-#output {
+#output1 {
   text-align: center;
   border: 1px solid var(--secondary-color);
   padding: 0.3rem;
   background-color: var(--secondary-color);
+  border-radius:1rem;
   color: white;
+}
+
+#output {
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  padding: 0.3rem;
 }
 
 .input-label {

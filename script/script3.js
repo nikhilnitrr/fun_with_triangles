@@ -1,5 +1,6 @@
 var input1 = document.querySelector("#input-a");
 var input2 = document.querySelector("#input-b");
+var output1 = document.querySelector("#output1");
 var output = document.querySelector("#output");
 
 function findHypotenuse() {
@@ -18,4 +19,4 @@ function findHypotenuse() {
   }
 }
 
-output.addEventListener("click", findHypotenuse);
+output1.addEventListener("click", findHypotenuse);
