@@ -1,5 +1,6 @@
 var input1 = document.querySelector("#input-base");
 var input2 = document.querySelector("#input-height");
+var output1 = document.querySelector("#output1");
 var output = document.querySelector("#output");
 
 function findArea() {
@@ -16,4 +17,4 @@ function findArea() {
   }
 }
 
-output.addEventListener("click", findArea);
+output1.addEventListener("click", findArea);
